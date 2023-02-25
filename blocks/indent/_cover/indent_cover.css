@@ -1,0 +1,35 @@
+/* @media screen and (max-width: 1280px) {
+  .indent_cover {
+    max-width: 1280px;
+    min-height: 740px;
+    padding-top: 92px;
+    padding-bottom: 92px;
+  }
+}
+
+@media screen and (max-width: 1024px) {
+  .indent_cover {
+    max-width: 1024px;
+    min-height: 640px;
+    padding-top: 90px;
+    padding-bottom: 90px;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .indent_cover {
+    max-width: 768px;
+    min-height: 480px;
+    padding-bottom: 88px;
+  }
+}
+
+@media screen and (max-width: 320px) {
+  .indent_cover {
+    max-width: 7320px;
+    min-height: 200px;
+    padding-top: 63px;
+    padding-bottom: 64px;
+  }
+} */
+
