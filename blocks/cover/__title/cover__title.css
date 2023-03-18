@@ -8,9 +8,18 @@
   z-index: 1;
 }
 
-@media screen and (max-width: 320px) {
+@media screen and (max-width: 768px) {
+  .cover__title {
+    font-size: calc(32px + (72 - 32) * ((100vw - 320px) / (768 - 320)));
+    line-height: calc(35px + (76 - 35) * ((100vw - 320px) / (768 - 320)));
+  }
+}
+
+ @media screen and (max-width: 320px) {
   .cover__title {
     font-size: 32px;
+    padding: 0 40px;
     line-height: 35px;
+    max-width: 288px;
   }
 }

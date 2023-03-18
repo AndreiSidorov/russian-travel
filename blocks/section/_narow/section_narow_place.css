@@ -1,0 +1,28 @@
+@media screen and (max-width: 1280px) {
+  .section_narow_place {
+    margin-left: calc(48px + (148 - 48) * ((100vw - 1024px) / (1280 - 1024)));
+    margin-right: calc(48px + (148 - 48) * ((100vw - 1024px) / (1280 - 1024)));
+  }
+}
+
+@media screen and (max-width: 1023px) {
+  .section_narow_place {
+    margin-left: calc(24px + (48 - 24) * ((100vw - 1023px) / (1023 - 768)));
+    margin-right: calc(24px + (48 - 24) * ((100vw - 1023px) / (1023 - 768)));
+  }
+}
+
+
+@media screen and (max-width: 768px) {
+  .section_narow_place {
+    margin-left: calc(16px + (24 - 16) * ((100vw - 320px) / (767 - 320)));
+    margin-right: calc(16px + (24 - 16) * ((100vw - 320px) / (767 - 320)));
+  }
+}
+
+@media screen and (max-width: 320px) {
+  .section_narow_place {
+    margin-left: 0;
+    margin-right: 0;
+  }
+}

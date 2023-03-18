@@ -6,3 +6,9 @@
 .place__pargrph:last-child {
   padding: 0;
 }
+
+@media screen and (max-width: 768px) {
+  .place__pargrph {
+    padding-bottom: 25px;
+  }
+}
