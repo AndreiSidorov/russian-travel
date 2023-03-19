@@ -1,13 +1,13 @@
 .page__places {
   box-sizing: content-box;
   margin: 0 auto;
+  padding-top: 92px;
 }
 
 @media screen and (max-width: 1280px) {
   .page__places {
     margin-left: calc(48px + (148 - 48) * ((100vw - 1024px) / (1280 - 1024)));
     margin-right: calc(48px + (148 - 48) * ((100vw - 1024px) / (1280 - 1024)));
-    padding-top: 92px;
   }
 }
 
