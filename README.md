@@ -7,4 +7,6 @@ ___
 + Приминение технологии Grid layout и Flex
 + Применнение функции Calc
 ___
+## Ссылка на проект:
+https://andreisidorov.github.io/russian-travel/
 
