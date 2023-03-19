@@ -1,5 +1,10 @@
+.page__intro {
+  box-sizing: content-box;
+  margin: 0 auto;
+}
+
 @media screen and (max-width: 1280px) {
-  .section_narow_intro {
+  .page__intro {
     margin-left: calc(48px + (148 - 48) * ((100vw - 1024px) / (1280 - 1024)));
     padding-top: 92px;
     padding-bottom: 92px;
@@ -7,13 +12,13 @@
 }
 
 @media screen and (max-width: 1024px) {
-  .section_narow_intro {
+  .page__intro {
     margin-left: calc(24px + (48 - 24) * ((100vw - 768px) / (1023 - 768)));
   }
 }
 
 @media screen and (max-width: 768px) {
-  .section_narow_intro {
+  .page__intro {
     margin-left: calc(16px + (24 - 16) * ((100vw - 320px) / (767 - 320)));
     margin-right: calc(16px + (24 - 16) * ((100vw - 320px) / (767 - 320)));
     padding-top: 88px;
@@ -22,11 +27,8 @@
 }
 
 @media screen and (max-width: 320px) {
-  .section_narow_intro {
+  .page__intro {
     padding-top: 64px;
-    padding-bottom: 74px;
+    padding-bottom: 64px;
   }
 }
-
-
-

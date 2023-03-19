@@ -1,34 +1,36 @@
+.page__header {
+  box-sizing: content-box;
+  margin: 0 auto;
+}
+
 @media screen and (max-width: 1280px) {
-  .section_narow_photo-grid {
+  .page__header {
     max-width: calc(100% - 48px*2);
-    gap: 16px;
+    padding-top: 28px;
+    padding-bottom: 56px;
   }
 }
 
 @media screen and (max-width: 1024px) {
-  .section_narow_photo-grid {
-    max-width: calc(100% - 48px*2);
-    gap: 14px;
+  .page__header {
+    padding-bottom: 48px;
   }
 }
 
 @media screen and (max-width: 768px) {
-  .section_narow_photo-grid {
+  .page__header {
     max-width: calc(100% - 24px*2);
-    gap: 16px;
   }
 }
 
 @media screen and (max-width: 425px) {
-  .section_narow_photo-grid {
+  .page__header {
     max-width: calc(100% - 16px*2);
-    gap: 12px;
   }
 }
 
 @media screen and (max-width: 320px) {
-  .section_narow_photo-grid {
-    max-width: calc(100% - 16px*2);
-    gap: 12px;
+  .page__header {
+    padding-top: 16px;
   }
 }

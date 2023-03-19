@@ -1,43 +1,25 @@
 .places {
   display: grid;
   gap: 80px;
-  min-height: 2808px;
+  max-width: 984px;
 }
-
-@media screen and (max-width: 1280px) {
-  .places {
-    padding-top: 92px;
-  }
-}
-
-@media screen and (max-width: 1024px) {
-  .places {
-    padding-top: 104px;
-  }
-}
-
 
 @media screen and (max-width: 768px) {
   .places {
-    padding-top: 88px;
     gap: 73px;
   }
 }
 
 @media screen and (max-width: 700px) {
   .places {
-    padding-top: 57px;
     justify-content: center;
     gap: 50px;
   }
 }
 
-
 @media screen and (max-width: 320px) {
   .places {
-    padding-top: 57px;
     justify-content: center;
     gap: 50px;
-    min-height: 5177px;
   }
 }

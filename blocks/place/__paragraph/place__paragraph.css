@@ -1,14 +1,14 @@
-.place__pargrph {
+.place__paragraph {
   margin: 0;
   padding-bottom: 26px;
 }
 
-.place__pargrph:last-child {
-  padding: 0;
+.place__paragraph:last-child {
+  padding-bottom: 0;
 }
 
 @media screen and (max-width: 768px) {
-  .place__pargrph {
+  .place__paragraph {
     padding-bottom: 25px;
   }
 }
