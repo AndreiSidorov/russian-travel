@@ -2,11 +2,12 @@
   box-sizing: content-box;
   margin: 0 auto;
   padding-bottom: 24px;
+  max-width: calc(100% - 48px*2);
 }
 
 @media screen and (max-width: 1280px) {
   .page__footer {
-    max-width: calc(100% - 48px*2);
+
   }
 }
 

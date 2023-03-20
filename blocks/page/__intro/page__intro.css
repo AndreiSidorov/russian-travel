@@ -1,8 +1,9 @@
 .page__intro {
+  max-width: 1280px;
   box-sizing: content-box;
-  margin: 0 auto;
   padding-top: 92px;
   padding-bottom: 92px;
+  margin-left: 148px;
 }
 
 @media screen and (max-width: 1280px) {
